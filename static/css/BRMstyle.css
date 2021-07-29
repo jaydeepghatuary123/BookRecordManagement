@@ -1,0 +1,94 @@
+body{
+
+  background-color:khaki;
+  margin:0px 0px 0px 0px;
+  font-family:"georgia";
+}
+
+#header{
+  background-image: url('../images/download.jpg');
+  text-transform:capitalize;
+  background-color:#329A97;
+  border:solid 2px black;
+   padding-bottom:30px;
+   padding-top:20px;
+   text-align:center;
+ }
+#header h1{
+  text-align:center;
+  color:black;
+  background-color: grey ;
+  padding-top:20px;
+  padding-bottom:20px;
+  letter-spacing:5px;
+  text-decoration:underline;
+}
+
+
+#nav{
+   width:60%;
+  margin:auto;
+}
+#nav a{
+    background-color:#F4FA3C; /* Yellow */
+    width:150px;
+    border:solid 2px #329A97;  /* Teal Green */
+    font-size:20px;
+    text-decoration:none;
+    color:#329A97;
+    padding-left:20px;
+    padding-right:20px;
+ }
+#main{
+  border-style: solid;
+  margin: auto;
+  border:solid 5px black;
+  width:80%;
+  padding:5px;
+  margin-top:5px;
+  padding-bottom:30px;
+  padding-top:20px;
+  padding-left:20px;
+
+  padding-right:20px;
+}
+
+#main h2{
+   background-color:lightblue ;
+  padding-bottom:20px;
+  padding-top:20px;
+   color:orange;
+   text-decoration:underline ;}
+
+#main form, #main h2{
+    text-align:center; }
+ #main table {
+   width:100%;
+   text-align:center;
+   color:#329A97;
+ }
+ #main table td{
+   background-color: white;
+
+ }
+
+#main table th{
+  background-color: #329A97;
+  color:white;
+}
+.btn{
+  background-color:#F4FA3C; /* Yellow */
+  width:150px;
+  border:solid 2px #329A97;  /* Teal Green */
+  font-size:18px;
+  text-decoration:none;
+  color:#329A97;
+  padding-left:10px;
+  padding-right:10px;
+}
+#hello{
+  text-align:right;
+  margin-right:50px;
+  font-size:20px;
+  color:white;
+}
